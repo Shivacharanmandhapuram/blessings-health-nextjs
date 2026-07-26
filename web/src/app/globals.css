@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/**
+ * Blessings Medical Clinic brand theme (ported from the legacy Tailwind config).
+ * Tailwind v4 exposes these as utilities: bg-teal, text-teal-dark, bg-cream, etc.
+ */
+@theme {
+  --color-teal: #006d77;
+  --color-teal-dark: #00555d;
+  --color-teal-light: #2a8a92;
+
+  --color-sage: #83c5be;
+  --color-sage-light: #a3d9d3;
+
+  --color-cream: #edf6f9;
+  --color-cream-dark: #dbe7eb;
+
+  --color-coral: #e29578;
+  --color-coral-hover: #cc7a5b;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-merriweather), ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scroll-triggered fade-in (used by AnimatedSection) */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Decorative dot pattern (replaces an inline style) */
+.dot-pattern {
+  background-image: radial-gradient(circle, #fff 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .fade-in-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
