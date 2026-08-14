@@ -14,10 +14,10 @@ const Contact: React.FC = () => {
             
             <div className="relative z-10 max-w-3xl mx-auto">
                 <h2 className="text-4xl md:text-6xl font-sans font-medium text-white tracking-tight leading-[1.1] mb-8">
-                    Your wellness journey begins with one call
+                    Better health starts with better care.
                 </h2>
                 <p className="text-teal-100 text-xl md:text-2xl mb-12 font-light leading-relaxed max-w-2xl mx-auto">
-                    Call us today and experience expert care designed around you. Same-day appointments often available.
+                    Experience thoughtful, prevention-focused primary care designed around your individual medical needs, goals, and circumstances.
                 </p>
                 <div className="flex justify-center">
                     <a href="tel:617-251-5065" className="bg-white text-[#006d77] hover:bg-gray-100 font-bold text-lg py-4 px-10 rounded-full transition-all shadow-lg hover:shadow-sm hover:scale-105 flex items-center gap-3">
@@ -36,7 +36,10 @@ const Contact: React.FC = () => {
                   <img src="/logo-emblem.png" alt="Blessings Medical Clinic logo" className="h-9 w-9 object-contain" /> Blessings Medical
                 </span>
                 <p className="text-gray-500 leading-relaxed max-w-md">
-                    Compassionate clinical care tailored to your needs. We are dedicated to providing the highest quality health services to our community.
+                    Compassionate primary care that combines medical treatment, prevention, and practical lifestyle guidance to help patients achieve better long-term health.
+                </p>
+                <p className="text-gray-500 leading-relaxed max-w-md">
+                    We are committed to making high-quality healthcare more accessible to diverse and underserved communities.
                 </p>
             </div>
 

@@ -26,17 +26,20 @@ const Hero: React.FC = () => {
 
                 {/* Heading */}
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[4.5rem] font-sans font-semibold text-gray-900 tracking-tight leading-[1.1] mb-6">
-                    Your health is <span className="block text-teal">our first priority</span>
+                    Primary care that treats today <span className="block text-teal">and protects tomorrow.</span>
                 </h1>
 
                 {/* Subheading */}
                 <p className="text-base sm:text-lg text-gray-600 mb-4 max-w-xl font-normal leading-relaxed">
-                    Comprehensive primary care, DOT/CDL physicals, and specialized pain management, delivered with prevention-focused, compassionate care for patients of all ages.
+                    Comprehensive primary care, preventive medicine, DOT/CDL examinations, urgent illness visits, and selected office procedures—delivered with compassion and attention to the whole person.
+                </p>
+                <p className="text-base sm:text-lg text-gray-600 mb-4 max-w-xl font-normal leading-relaxed">
+                    At Blessings Medical Clinic, medical treatment is combined with practical lifestyle guidance whenever appropriate. The goal is not only to address today's health concern, but also to help patients reduce future risks and build a stronger foundation for long-term health.
                 </p>
                 
                 {/* Location Signal */}
                 <p className="text-base text-teal font-medium mb-10">
-                    📍 Trusted primary care for Fall River and nearby Massachusetts communities
+                    📍 Trusted primary care for Fall River and surrounding Massachusetts communities
                 </p>
 
                 {/* Buttons */}

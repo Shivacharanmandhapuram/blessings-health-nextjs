@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import MeetDoctor from "@/components/MeetDoctor";
+import HomeContentSections from "@/components/HomeContentSections";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import AnimatedSection from "@/components/AnimatedSection";
@@ -10,6 +11,9 @@ export default function Home() {
       <Hero />
       <AnimatedSection delay={100}>
         <MeetDoctor />
+      </AnimatedSection>
+      <AnimatedSection delay={100}>
+        <HomeContentSections />
       </AnimatedSection>
       <AnimatedSection delay={100}>
         <Testimonials />

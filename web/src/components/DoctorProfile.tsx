@@ -41,30 +41,30 @@ const DoctorProfile: React.FC = () => {
     {
       id: 1, // USA - Credibility First
       image: "/ii.webp", // Replace with actual file in public folder
-      tag: "🇺🇸 Community Health Innovation",
-      headline: "Transforming Community Healthcare in America",
+      tag: "Primary Care · Urgent Care · Hospital Medicine",
+      headline: "Experience Across the Healthcare System",
       subtext:
-        "Creator of the ER Can Wait initiative, a value-based care model reducing emergency admissions and improving access to proactive primary care.",
-      cta: "View ER Can Wait Initiative",
+        "Dr. Gohokar's experience across several healthcare settings helps him understand the complete patient journey—from prevention and office-based treatment to urgent evaluation and hospital follow-up. Throughout his career, he has focused on making comprehensive care more accessible to underserved patients and communities.",
+      cta: "View Clinical Experience",
       targetId: "usa-impact",
     },
     {
       id: 2, // India - Heart & Scale
       image: "/org.webp", // Replace with actual file in public folder
-      tag: "🇮🇳 My Village My Dream Foundation",
-      headline: "Building Health & Hope at the Grassroots",
+      tag: "Healthcare Innovation",
+      headline: "Improving Care Beyond the Examination Room",
       subtext:
-        "Leading health, education, and rural development initiatives through the My Village My Dream Foundation, impacting thousands across India.",
-      cta: "Explore Foundation Work",
+        "Through programs such as ER Can Wait and Wellness Group Visits, Dr. Gohokar has worked to improve access, reduce avoidable emergency-room use, and help patients take a more active role in their health. The ER Can Wait model was presented as a clinical CME session at the 2024 Community Health Institute Conference organized by the Massachusetts League of Community Health Centers.",
+      cta: "Explore Community Programs",
       targetId: "india-impact",
     },
     {
       id: 3, // Global Bridge
       image: "/doctor.webp", // Replace with actual file in public folder
-      tag: "🌍 Medicine • Service • Impact",
-      headline: "A Physician Driven by Global Impact",
+      tag: "Clinical Care · Education · Service",
+      headline: "Medicine, Prevention, and Community Impact",
       subtext:
-        "Board-Certified Family Physician with 13+ years of experience, combining clinical excellence with deep community engagement across continents.",
+        "Dr. Gohokar combines medical treatment, prevention, lifestyle education, and community-based initiatives serving patients in Massachusetts and underserved villages in rural India.",
       cta: "View Full Profile",
       targetId: "professional-foundations",
     },
@@ -188,8 +188,10 @@ const DoctorProfile: React.FC = () => {
       <section className="bg-teal py-8 sm:py-12 px-4 sm:px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-lg sm:text-2xl md:text-3xl font-serif italic text-white leading-relaxed">
-            "From Massachusetts to rural India, Dr. Nikhil Gohokar bridges
-            clinical excellence and community-driven impact."
+            From hospital medicine and community health centers in
+            Massachusetts to health and education programs in rural India, Dr.
+            Nikhil Gohokar has consistently treated challenges as opportunities
+            to improve patient care.
           </h2>
         </div>
       </section>
@@ -209,8 +211,9 @@ const DoctorProfile: React.FC = () => {
                 </h2>
               </div>
               <p className="text-base sm:text-xl text-gray-500 max-w-xl pb-2">
-                Pioneering value-based care models that reduce emergency room
-                dependency and improve patient outcomes.
+                Dr. Gohokar has worked in primary care, urgent care, and
+                hospital medicine for more than 14 years, much of that time
+                serving diverse and medically underserved populations.
               </p>
             </div>
 
@@ -228,10 +231,14 @@ const DoctorProfile: React.FC = () => {
                     ER Can Wait Program
                   </h3>
                   <p className="text-gray-600 text-sm sm:text-lg mb-6 sm:mb-8 leading-relaxed">
-                    A groundbreaking value-based care program designed to reduce
-                    emergency department visits through proactive patient
-                    management. By shifting care to the clinic, we save patients
-                    time, reduce costs, and provide better continuity of care.
+                    Dr. Gohokar developed the ER Can Wait initiative to help
+                    patients with frequent emergency-department use receive more
+                    proactive, coordinated, and accessible primary care. Rather
+                    than waiting for another crisis, the multidisciplinary team
+                    worked to identify high-risk patients and understand the
+                    medical, behavioral, social, and logistical factors
+                    contributing to repeated emergency-room visits or hospital
+                    readmissions.
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-10">
@@ -248,7 +255,7 @@ const DoctorProfile: React.FC = () => {
                         Award
                       </span>
                       <span className="text-xs sm:text-sm text-gray-600 font-medium">
-                        "Great Session" at MA League Conference
+                        Presented at 2024 Community Health Institute Conference
                       </span>
                     </div>
                   </div>

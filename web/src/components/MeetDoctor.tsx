@@ -39,8 +39,8 @@ const MeetDoctor: React.FC = () => {
                     <Milestone className="w-6 h-6" />
                   </div>
                   <div>
-                    <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Global Experience</p>
-                    <p className="text-sm font-bold text-gray-900 leading-tight">13+ Years of Clinical Excellence</p>
+                    <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">Clinical Experience</p>
+                    <p className="text-sm font-bold text-gray-900 leading-tight">14+ Years of Clinical Excellence</p>
                   </div>
                 </div>
               </div>
@@ -69,13 +69,13 @@ const MeetDoctor: React.FC = () => {
             <div className="mb-8">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal/5 text-teal text-sm font-bold mb-6 tracking-wide border border-teal/10">
                 <CheckCircle2 className="w-4 h-4" />
-                <span>Primary Care Physician</span>
+                <span>Board-Certified Family Physician</span>
               </div>
               <h2 className="text-5xl md:text-6xl font-sans font-bold text-gray-900 tracking-tight leading-[1.1] mb-4">
-                Compassionate care by <span className="text-teal">Dr. Nikhil Gohokar</span>
+                Broad clinical experience. <span className="text-teal">Practical whole-person care.</span>
               </h2>
               <p className="text-xl md:text-2xl text-gray-500 font-light leading-relaxed max-w-2xl">
-                A Board-Certified Family Physician dedicated to bridging clinical expertise with deep community engagement.
+                Dr. Nikhil Gohokar has more than 14 years of experience caring for patients in primary care, urgent care, and hospital settings.
               </p>
             </div>
 
@@ -105,10 +105,10 @@ const MeetDoctor: React.FC = () => {
             {/* Detailed Bio Snippet */}
             <div className="space-y-6 mb-12">
               <p className="text-lg text-gray-600 leading-relaxed border-l-4 border-teal/20 pl-6 italic">
-                "I believe healthcare is more than just treating symptoms; it's about understanding the individual and their role within the community. My mission is to provide accessible, high-quality care that empowers patients to lead healthier lives."
+                "My goal is not only to help patients return to their previous level of health. Whenever possible, I want to help them continue moving forward so they can build a stronger foundation for the future."
               </p>
               <p className="text-gray-500 leading-relaxed max-w-xl">
-                With a background in Healthcare Administration and years of experience in both primary and urgent care, Dr. Gohokar brings a unique perspective to modern family medicine.
+                Throughout his career, he has worked extensively with diverse and medically underserved populations. He believes that patients facing financial, cultural, linguistic, geographic, or social barriers should still have access to thoughtful, comprehensive, and high-quality healthcare.
               </p>
               <p className="text-sm text-gray-500">
                 Board certification:{" "}

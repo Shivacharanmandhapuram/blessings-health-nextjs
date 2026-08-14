@@ -98,14 +98,12 @@ const About: React.FC = () => {
 
             {/* Headline */}
             <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-sans font-bold text-white mb-6 leading-[1.1] tracking-tight drop-shadow-2xl">
-              Healing the individual to <span className="text-teal-light italic font-serif">transform society.</span>
+              Treat the illness. Strengthen the person. <span className="text-teal-light italic font-serif">Protect the future.</span>
             </h2>
 
             {/* Supporting Text */}
             <p className="text-sm sm:text-base md:text-xl text-gray-100 mb-8 md:mb-12 font-light leading-relaxed max-w-xl drop-shadow-lg mx-auto md:mx-0">
-              We believe healthcare begins with the individual. 
-              By nurturing a healthy mind and a healthy body, 
-              we create stronger families, healthier communities, and lasting societal change.
+              Healthcare should do more than respond after a person becomes sick. At Blessings Medical Clinic, we combine appropriate medical treatment with preventive care, patient education, and realistic lifestyle recommendations. We believe that every patient deserves access to high-quality healthcare, regardless of income, language, cultural background, location, or social circumstances.
             </p>
 
             {/* Philosophy Pillars */}
@@ -138,7 +136,7 @@ const About: React.FC = () => {
 
             {/* One-line reinforcement */}
             <p className="text-sm md:text-base text-gray-300 font-medium italic border-l-2 border-teal pl-4 ml-4 md:ml-0 inline-block drop-shadow-md">
-              True care doesn’t stop at treatment. It extends into everyday life.
+              True care does not stop when the prescription is sent. It continues through education, prevention, follow-up, improved access, and the choices patients make in everyday life.
             </p>
 
           </div>
@@ -152,8 +150,8 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-6 text-center">
 
               <div className="flex flex-col items-center justify-center">
-                  <span className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">13+</span>
-                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Years Experience</span>
+                  <span className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">14+</span>
+                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Clinical Experience</span>
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -162,13 +160,13 @@ const About: React.FC = () => {
               </div>
 
               <div className="flex flex-col items-center justify-center">
-                  <span className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">Global</span>
-                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Community Impact</span>
+                  <span className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">Multiple</span>
+                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Care Settings</span>
               </div>
 
               <div className="flex flex-col items-center justify-center">
                   <span className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">100%</span>
-                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Patient Focus</span>
+                  <span className="text-xs font-bold text-gray-500 tracking-[0.15em] uppercase">Every Community</span>
               </div>
 
           </div>

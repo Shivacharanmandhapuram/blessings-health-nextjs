@@ -12,7 +12,7 @@ const Services: React.FC = () => {
             Services
           </span>
           <h2 className="text-4xl md:text-5xl font-medium text-gray-900 tracking-tight leading-[1.15] max-w-2xl">
-            Comprehensive medical care tailored to your needs
+            Comprehensive medical care designed around your needs
           </h2>
         </div>
 
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-teal transition-colors">Primary Care</h3>
               <p className="text-gray-500 leading-relaxed mb-8">
-                Comprehensive health management, annual physicals, and preventative care for long-term wellness.
+                Comprehensive medical care for adults, including annual physicals, preventive screenings, medication management, chronic disease care, and coordination with specialists. Dr. Gohokar is committed to making high-quality primary care accessible to diverse and underserved patients.
               </p>
               
               <div className="mt-auto flex items-center text-teal font-semibold text-sm opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
@@ -42,11 +42,11 @@ const Services: React.FC = () => {
                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal to-teal-light transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
 
               <div className="w-12 h-12 bg-teal/5 rounded-[14px] flex items-center justify-center mb-6 text-teal group-hover:bg-teal group-hover:text-white transition-colors duration-300 shrink-0">
-                <Activity className="w-6 h-6" />
+                <Heart className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-teal transition-colors">Pain Management</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-teal transition-colors">Preventive & Lifestyle Care</h3>
               <p className="text-gray-500 leading-relaxed mb-8">
-                Specialized joint injections for knee, shoulder, back, hip bursitis, and neck pain relief.
+                Personalized and practical recommendations related to nutrition, physical activity, sleep, stress management, breathing and relaxation practices, tobacco cessation, weight management, and other lifestyle factors affecting long-term health. Lifestyle recommendations complement—not replace—appropriate medical evaluation, medication, and specialist care.
               </p>
               
               <div className="mt-auto flex items-center text-teal font-semibold text-sm opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">

@@ -5,7 +5,7 @@ import { breadcrumbJsonLd } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Blessings Medical Clinic in Fall River, MA",
   description:
-    "Relationship-based primary care in Fall River, MA. Our philosophy: healing the individual to build healthier families and communities.",
+    "Patient-centered primary care in Fall River, Massachusetts, combining medical treatment, preventive medicine, and practical lifestyle guidance, with a commitment to serving diverse and underserved communities.",
   alternates: { canonical: "/about" },
 };
 
